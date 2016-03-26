@@ -1,0 +1,344 @@
+
+
+
+.hidden {display: none;}
+.show { width:243px;}
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+
+}
+
+
+
+
+#contenedor{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/bannerWeb3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 91%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+		#menuSmart{
+			display: none;
+		}
+
+
+		#bottonmenu{
+			width: 50px;
+			height: 50px;
+			margin-top: 10px;
+			margin-left: 10px;
+			/*background-image: url("../img/botton2.jpg");
+			background-size: 100% 100%;
+			border-radius: 20px;*/
+			position: absolute;
+			z-index: 1;
+			display: none;
+		}
+
+
+		.ulmenu{
+			width: 860px;
+			height: 60px;			
+			margin: 0 auto 0 auto;			
+			padding: 0;
+			font-family:BankFuturistic;
+			font-size: 23px;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;			
+		}
+
+
+
+
+
+				.ulmenu a{
+				color: white;
+				text-decoration: none;
+				}
+				.ulmenu a:hover{
+				color: black;
+				text-decoration: none;
+				}
+
+
+				.limenuhome{
+				float: left;
+				color: white;
+				background-color: transparent;
+				padding-top: 15px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				width: 140px;
+				height: 60px;
+				text-align: center;
+				}
+
+							.limenuhome:hover{
+							color: black;
+							background-color: #d4d4d6;
+							text-decoration:none;
+							}
+
+				.limenu{
+				float: left;
+				width: 180px;
+				height: 60px;
+				color: white;
+				padding-top: 15px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				background-color: transparent;
+				text-align: center;
+				}
+
+							.limenu:hover{
+							color: black;
+							background-color: #d4d4d6;
+							text-decoration: none;
+							}
+
+		
+
+#nosotros{
+	width: 100%;
+	height: 1400px;
+	background-color: white;
+}
+
+				#aboutus{
+					width: 100%;
+					height: 150px;
+					text-align: center;
+					font-size: 40px;
+					color: black;
+					font-family: Georgia;
+					padding-top: 60px;
+					background-color: none;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					-webkit-box-sizing: border-box;
+
+				}
+
+				
+
+				#imagentext1{
+					width: 100%;
+					height: auto;
+					float: left;
+					background-color: none;					
+				}
+
+
+
+						#nosotrosimg1{
+							width: 480px;
+							height: 380px;
+							background-image:url("../img/bravos.png");
+							background-size: 100% 100%;
+							margin-top:50px;
+							margin-left:50px;
+							margin-right: 15px;
+							float: left;
+						}
+
+
+
+
+
+				#imagentext2{
+					width: 100%;
+					height: 430;
+					float: left;
+					background-color: none;
+					margin-top: 2em;
+
+					}
+
+					
+							#nosotrosimg2{
+								width: 600px;
+								height: 300px;
+								/*background-image:url("../img/amigos.png");
+								background-size: 100% 100%;*/
+								margin-top: 40px;
+								margin-right: 40px;
+								margin-left: 40px;					
+								float: right;
+							}
+
+				.texto{
+					font-size: 20px;
+					font-family: arial;
+					margin-left: 10px;
+					line-height: 45px;					
+					text-align: justify;
+					padding-left: 15px;
+					padding-right: 15px;
+				}							
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+#footer{
+	width: 100%;
+	height:900px;
+	background-color: none;
+	background-image:url("../img/imagen.jpg");
+	background-size: 100% 100%;
+}
+
+					#contact{
+						width: 100%;
+						height: 200px;
+						padding-top: 70px;
+						box-sizing: border-box;
+						-moz-box-sizing: border-box;
+						-webkit-box-sizing: border-box;						
+						text-align: center;
+						font-size: 30px;
+						color: white;
+						font-family: Georgia;
+						float: left;
+						background-color:none;
+					}
+
+#contenedortwitter{
+	width: 50%;
+	height: 550px;	
+	float: left;
+	text-align: center;
+	background-color:none;
+}
+
+
+			#twitter{
+				width: auto;
+				height: 530px;
+				background-color:transparent;
+				margin: 0 auto 0 auto;
+				
+			}
+
+#contactanos{
+	width: 50%;
+	height: 550px;	
+	float: left;
+	text-align: center;
+	background-color:none;
+}
+
+
+						#area{
+							width: 278px;
+							height: 150px;
+							margin-top: 30px;				
+						}
+
+						#bottonsubmit{
+							width: 100px;
+							height: 30px;
+							font-size:15px; 
+							margin-top: 15px;							
+							background: none;
+							border-color: white;
+							color: white;
+						}
+
+						#bottonsubmit:hover{
+							background: orange;
+						}
+
+						.inputc{
+						background: none;
+						height: 20px;
+						border-radius: 5px;
+						color:white;
+						border-color: white;
+						margin-top: 30px;
+						}
+
+						.inputc:hover{
+						border-color: orange;
+						}
+
+						.inputc::-webkit-input-placeholder {
+						    color:white;
+						    font-family: arial;
+						    font-size: 13px;						  	
+							box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							-webkit-box-sizing: border-box;
+						}
+
+						.inputc:-ms-input-placeholder{
+						    color:white;
+						    font-family: arial;
+						    font-size: 13px;						    
+							box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							-webkit-box-sizing: border-box;
+						}
+
+						.inputc::-moz-placeholder {
+						    color:white;
+						    font-family: arial;
+						    font-size: 13px;						    
+							box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							-webkit-box-sizing: border-box;
+						}
+
+#footerdessing{
+	width: 100%;
+	height: 25px;
+	background:black;
+}
+			#dessingby{
+				width: 100%;
+				height: auto;
+				font-family: cursive;
+				font-size: 13px;
+				color:white;
+				float: left;
+				text-align: center;
+			}
+
+
+/************************* Logo De Inscripciones y V.i.P *********************/
+#logo{	
+	float: left;
+	background: none;			
+	width: 50%;
+	height: 40%;
+	margin-top: 100px;
+	padding: 0;
+}
+/******************* FIn DeLogo De Inscripciones y V.i.P *********************/

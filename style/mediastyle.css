@@ -1,0 +1,189 @@
+ @charset "utf-8";
+/* CSS Document */
+
+
+/***************************************** (960px) (YELLOW) ******************************************/
+
+@media (max-width:880px){
+
+
+/************************* Logo De Inscripciones y V.i.P *********************/	
+	#logo{			
+				width: 100%;
+				height: 40%;
+				margin-top: 0;
+				}
+/******************* FIn DeLogo De Inscripciones y V.i.P *********************/
+
+	nav{
+		display: none;
+	}
+
+		#bottonmenu{		
+			display:none;				
+		}
+
+					.amenusmart{
+						text-decoration: none;
+						color:white;
+					}
+							.amenusmart:hover{
+								color:black;
+							}
+
+
+		#menuSmart{
+				display: block;
+			}
+
+				.menuSmart{
+					text-align: center;			
+				}
+
+					.elemento{	
+						margin-top: 0px;
+						padding-top: 5px;
+						font-size: 18px;					
+					}
+
+					.elemento:hover{
+						background-color: white ;		
+					}	
+
+
+
+
+
+
+
+
+
+
+
+		#contenedor{
+			background-size: 100% 100%;
+		}
+
+
+
+
+
+		#imagentext1{
+			height: auto;
+			background-color: white;
+		}
+
+							#nosotrosimg1{
+											width: 100%;
+											height: 300px;
+											/*background-image:url("../img/clan.jpg");*/
+											background-size: 100% 100%;
+											margin-top:none;
+											margin-left:0px;
+											padding-left:none;
+											margin-right:none;
+											float: none;
+										}
+
+		#imagentext2{
+			height: auto;
+			background-color: white;				
+		}	
+
+							#nosotrosimg2{
+											width: 100%;
+											height: 300px;
+											/*background-image:url("../img/clan.jpg");*/
+											background-size: 100% 100%;
+											margin-top:50px;
+											margin-left:0px;
+											margin-right: none;
+											float: none;
+										}
+
+		.texto{			
+			line-height: 25px;
+			display: inline-block;			
+			}
+
+
+
+#footer{
+	width: 100%;
+	height: 1700px;
+	background: gray;
+}
+
+			#contact{		
+				height: 200px;
+				background: gray;		
+			}
+
+			#contenedortwitter{
+			width: 100%;
+			background: gray;
+			}
+
+			#contactanos{
+				width: 100%;
+				height: auto;
+				float: left;
+				background: gray;	
+			}
+
+			.formcontactanos{
+					margin-left: 10%;			
+			}
+				
+
+
+
+
+
+/****** FIN Contenido para contacto********************************/
+
+
+/********************FIN SECTION ****************/	
+
+/******************** FOOTER ****************/		
+	
+/******************** FIN FOOTER ****************/			
+		
+
+/***************************************** FIN (960px) ****************************************************/	
+
+
+
+
+
+
+
+
+
+
+/***************************************** (710px) (YELLOW) ******************************************/
+
+@media (max-width:710px){
+
+#footer{
+	width: 100%;
+	height: 1900px;
+}
+
+
+
+@media (max-width:650px){
+
+#footer{
+	width: 100%;
+	height: 2000px;
+}
+
+@media (max-width:400px){
+
+#footer{
+	width: 100%;
+	height: 2400px;	
+}
+
+

@@ -1,0 +1,76 @@
+@charset "utf-8"
+/* CSS Document*/
+
+.hidden {display: none;}
+.show { width:243px;}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+
+
+	#menu{
+		background-color: white;
+		float: left;
+		height: 100%;
+		width: 77%;
+	}
+
+		#menu nav{
+			background-color: none;
+			height: 2em;
+			position: relative;
+			top:5.5em;
+			text-align: left;
+		}
+
+			#menuSmart
+				{			
+					position: relative;
+					width: 4.7em;
+					height: 4em;
+					background-color: none;
+					top: -30em;
+					left: 14em;							
+				}
+
+				#menu a:link{
+					text-decoration: none;
+					color:grey;
+				}
+
+				#menu a:hover{
+					text-decoration: underline;
+					color:green;
+				}
+
+				#menu a:visited{
+					text-decoration: none;
+					color:grey;
+				}
+
+			ul{
+				color:grey;			
+				margin-left: -2em;
+				margin-bottom: -0.4em; /*Ajuste de la alura contenido barra de navegacion*/
+			}
+
+				li{
+					height: 1em;
+					width: auto;
+					list-style: none;
+					float: left;			
+					margin-left: 1em;
+					margin-bottom: 0.2em;/*Separacion de enlaces nav*/
+					background-color: white;
+					font-size: 1em;
+					font-family:Arial, Helvetica, sans-serif;
+				}
+
+
+
